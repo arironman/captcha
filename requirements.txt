@@ -1,5 +1,5 @@
 numpy
 imutils
 sklearn
-tensorflow
+tensorflow<2.0
 keras

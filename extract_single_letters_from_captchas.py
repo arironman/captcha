@@ -32,6 +32,7 @@ for (i, captcha_image_file) in enumerate(captcha_image_files):
     letter_image_regions = []
 
     for contour in contours:
+        # print(contour)
         (x, y, w, h) = cv2.boundingRect(contour)
 
         if w / h > 1.25:
